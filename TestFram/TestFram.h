@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char TestFramVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TestFram/PublicHeader.h>
 
+#import "RandomColor.h"
 

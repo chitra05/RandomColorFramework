@@ -10,6 +10,8 @@
 		5A144DF42043D70B0093784A /* TestFram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A144DEA2043D70B0093784A /* TestFram.framework */; };
 		5A144DF92043D70B0093784A /* TestFramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A144DF82043D70B0093784A /* TestFramTests.m */; };
 		5A144DFB2043D70B0093784A /* TestFram.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A144DED2043D70B0093784A /* TestFram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A5CFFFA204508D600D8DC81 /* RandomColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5CFFF8204508D600D8DC81 /* RandomColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A5CFFFB204508D600D8DC81 /* RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5CFFF9204508D600D8DC81 /* RandomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		5A144DF32043D70B0093784A /* TestFramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A144DF82043D70B0093784A /* TestFramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFramTests.m; sourceTree = "<group>"; };
 		5A144DFA2043D70B0093784A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5CFFF8204508D600D8DC81 /* RandomColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomColor.h; sourceTree = "<group>"; };
+		5A5CFFF9204508D600D8DC81 /* RandomColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				5A144DED2043D70B0093784A /* TestFram.h */,
 				5A144DEE2043D70B0093784A /* Info.plist */,
+				5A5CFFF8204508D600D8DC81 /* RandomColor.h */,
+				5A5CFFF9204508D600D8DC81 /* RandomColor.m */,
 			);
 			path = TestFram;
 			sourceTree = "<group>";
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A144DFB2043D70B0093784A /* TestFram.h in Headers */,
+				5A5CFFFA204508D600D8DC81 /* RandomColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5CFFFB204508D600D8DC81 /* RandomColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
